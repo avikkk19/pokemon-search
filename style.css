@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #050A30;
+    color:#fff;
+    padding-top: 40px;
+
+}
+
+
+.content{
+    padding: 20px;
+   
+    text-align: center;
+}
+
+.header{
+    font-size: 68px;
+   color:#fff;
+   padding: 10px;
+}
+
+label{
+    font-size: 22px;
+}
+
+input{
+    font-size: 12px;
+    border-radius: 32px;
+    border-color: rgb(251, 249, 245);
+    color:black;
+     padding: 9px;
+}
+
+.button{
+    width: 68px;
+    height: 33px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-color: none;
+}
+
+
+.button:hover{
+    background-color: rgb(122, 122, 236);
+    color: #fff;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 85px;
+    display: none;
+    color:#fff;
+
+}
+
+.pokemonname{
+    font-size: 47px;
+}
+.weight{
+    font-size: 25px;
+}
+.height{
+    font-size: 25px;
+}
+
+.errordisplay{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imagedisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 400px;
+    
+}
+
+
