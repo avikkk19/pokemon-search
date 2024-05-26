@@ -8,11 +8,14 @@
 }
 
 .container{
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #050A30;
+    /* background-color: hsl(0, 0%, 15%) ; */
+    background-image: url(bg2.png);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
     color:#fff;
     padding-top: 40px;
 
@@ -21,8 +24,10 @@
 
 .content{
     padding: 20px;
-   
+    /* background-color: rgb(68, 68, 77); */
     text-align: center;
+    border-radius: 20px;
+    margin-bottom: 45px;
 }
 
 .header{
@@ -45,7 +50,7 @@ input{
 
 .button{
     width: 68px;
-    height: 33px;
+    height: 40px;
     border-radius: 30px;
     background-color: blanchedalmond;
     transition: all 0.3s ease;
@@ -64,11 +69,16 @@ input{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 30px;
-    border-radius: 85px;
+    padding: 40px;
+    border-radius: 15px;
     display: none;
     color:#fff;
-
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .pokemonname{
@@ -90,12 +100,36 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+     
     
 }
 
 img{
     width: 400px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 76px 20px;
+
     
+}
+
+
+@media (max-width : 789px) {
+    .container{
+        height: 180vh;
+        background-image: url(bg-pika.jpg);
+        background-size: contain;
+        
+        
+    }
+    .results{
+        color: rgb(39, 37, 37);
+    }
+
 }
 
 
