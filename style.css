@@ -121,7 +121,7 @@ img{
 @media (max-width : 799px) {
     .container{
         height: 210vh;
-        background-image: url(Pikachuu.jpg);
+        background-image: url(bg-pika.jpg);
         background-size:contain;
         
         
@@ -129,10 +129,7 @@ img{
     .results{
         color: rgb(39, 37, 37);
     }
-    .content{
-       
-    }
-
+  
 }
 
 
