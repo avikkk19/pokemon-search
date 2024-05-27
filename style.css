@@ -118,7 +118,7 @@ img{
 }
 
 
-@media (max-width : 799px) {
+@media (max-width : 768px) {
     .container{
         height: 210vh;
         background-image: url(bg-pika.jpg);
