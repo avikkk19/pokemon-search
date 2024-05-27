@@ -34,8 +34,8 @@ async function pokie(){
         results.style.display = "block";
         results.innerHTML = `<h1 class="pokemnonname"> Name : ${data.name}</h1>
         <h1 class="weight">  Weight : ${data.weight} kg's </h1>
-        <h1 class="height"> Height : ${data.height} cm </h1>
-        <h1 class="height"> Experience : ${data.base_experience}  </h1>
+        <h1 class="height"> Height : ${data.height} inches </h1>
+        <h1 class="height"> Experience : ${data.base_experience} matches </h1>
         `
         imagedisplay.style.display = "block"
         imagedisplay.innerHTML= `<img src=${data.sprites.front_default}>
@@ -45,6 +45,7 @@ async function pokie(){
     
 }
 catch(error){
+    
     errordisplay.innerHTML = `Enter a valid pokemon name or<br>  dont use Caps `
 }
 

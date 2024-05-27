@@ -120,9 +120,9 @@ img{
 
 @media (max-width : 789px) {
     .container{
-        height: 180vh;
-        background-image: url(bg-pika.jpg);
-        background-size: contain;
+        height: 210vh;
+        background-image: url(bg-mobile.jpg);
+        background-size: cover;
         
         
     }
