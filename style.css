@@ -118,16 +118,19 @@ img{
 }
 
 
-@media (max-width : 789px) {
+@media (max-width : 799px) {
     .container{
         height: 210vh;
-        background-image: url(bg-mobile.jpg);
-        background-size: cover;
+        background-image: url(Pikachuu.jpg);
+        background-size:contain;
         
         
     }
     .results{
         color: rgb(39, 37, 37);
+    }
+    .content{
+       
     }
 
 }
