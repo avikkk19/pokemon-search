@@ -124,7 +124,7 @@ img{
 @media (max-width : 768px) {
     .container{
         height: 190vh;
-        background-image: url(bg-pika.jpg);
+        background-image: url(Pikachuu.jpg);
         background-size:contain;
         width: auto;
         
@@ -151,6 +151,18 @@ img{
 
   .results{
     margin-bottom: 10px;
+  }
+  .pokemonname{
+    font-size: 25px;
+  }
+  .ability{
+    font-size: 20px;
+  }
+  .weight{
+    font-size: 20px;
+  }
+  .height{
+    font-size: 20px;
   }
 }
 

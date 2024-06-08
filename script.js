@@ -35,7 +35,7 @@ async function datafetch(){
     if(data){
         results.style.display = `block`
         results.innerHTML = `  <h1 class="pokemonname"> Pokemon name : ${data.name}</h1>
-            <h1 class="ability"> ${data.name} base experince: ${data.base_experience} Fights </h1>
+            <h1 class="ability"> ${data.name} experince: ${data.base_experience} Fights </h1>
             <h1 class="weight"> ${data.name}   weight : ${data.weight} Kg's</h1>
             <h1 class="height">${data.name}   height : ${data.height} Feet's</h1>`
 
