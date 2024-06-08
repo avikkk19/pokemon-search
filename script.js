@@ -42,6 +42,9 @@ async function pokie(){
         <img src=${data.sprites.back_default}>
         `
     }
+    else{
+        errordisplay.innerHTML = `Enter a valid pokemon name or<br>  dont use Caps `
+    }
     
 }
 catch(error){
